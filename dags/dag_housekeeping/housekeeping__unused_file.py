@@ -15,7 +15,7 @@ default_args = {
     'depends_on_past': False,
     'retries': 5,
     'retry_delay': timedelta(minutes=1),
-    'email': ['anhnh@raffles.com.vn'],
+    'email': ['huyhoangj8@gmail.com'],
     'email_on_failure': True,
     'email_on_retry': True
 }

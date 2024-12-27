@@ -9,7 +9,7 @@ from dags.utils.clean_metadata import housekeeping__clean_metadata_file, check_s
 default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
-    'email': ['anhnh@raffles.com.vn'],
+    'email': ['huyhoangj8@gmail.com'],
     'email_on_failure': True,
     'email_on_retry': True
 }
